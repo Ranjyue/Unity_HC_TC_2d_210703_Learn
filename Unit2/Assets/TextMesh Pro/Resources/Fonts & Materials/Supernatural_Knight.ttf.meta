@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 230dfbeed283b024886e549b4a4a99f4
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Supernatural Knight
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 721d0dd572094c04ab6dfa7878a91a43, type: 3}
+  - {fileID: 12800000, guid: 6bdbf3da950f63a4fa01dca876ac8985, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
