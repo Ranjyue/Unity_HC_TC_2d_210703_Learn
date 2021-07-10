@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.12f1 (b3b2c6512326) revision 11776710'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19041.1052; Version 2004; 64bit' Language: 'zh' Physical Memory: 8073 MB
+OS: 'Windows 10 Home; OS build 19041.1083; Version 2004; 64bit' Language: 'zh' Physical Memory: 8073 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ E:/Unity/Unit 2/Unity_HC_TC_2d_210703_Learn/Unit2_grid_tilepalete
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58686
+52638
 Successfully changed project path to: E:/Unity/Unit 2/Unity_HC_TC_2d_210703_Learn/Unit2_grid_tilepalete
 E:/Unity/Unit 2/Unity_HC_TC_2d_210703_Learn/Unit2_grid_tilepalete
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 113.40 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1739.90 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path E:/Unity/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'E:/Unity/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/Unity/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56424
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56676
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Unity/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.036715 seconds.
+Registered in 0.013803 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 93.27 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 103.03 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  6.941 seconds
+- Completed reload, in  9.496 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.110765 seconds.
+Registered in 0.032217 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 75.94 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 96.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.701 seconds
+- Completed reload, in  2.701 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.23 seconds
-Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.65 seconds
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.9 MB.
+Unloading 2081 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.0 MB.
 System memory in use after: 92.9 MB.
 
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2514.
-Total: 5.627800 ms (FindLiveObjects: 0.480800 ms CreateObjectMapping: 0.288800 ms MarkObjects: 4.605800 ms  DeleteObjects: 0.249700 ms)
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2516.
+Total: 6.143700 ms (FindLiveObjects: 0.479700 ms CreateObjectMapping: 0.323600 ms MarkObjects: 5.020300 ms  DeleteObjects: 0.317500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -80,230 +80,1541 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '082b0d08ddc19594934b97f5c13533b2') in 0.049982 seconds 
-  Import took 0.090269 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.771399 seconds.
-  path: Assets/Music/魔王魂  フィールド11.mp3
-  artifactKey: Guid(4de9310c612c4be4f86f43b18fd659f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/魔王魂  フィールド11.mp3 using Guid(4de9310c612c4be4f86f43b18fd659f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba2c13ff2f07f3479cbbd1c303917593') in 0.518757 seconds 
-  Import took 0.535282 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000414 seconds.
-  path: Assets/Music/魔王魂  フィールド11.ogg
-  artifactKey: Guid(2affd2515c7d9c64089549cd726b31f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/魔王魂  フィールド11.ogg using Guid(2affd2515c7d9c64089549cd726b31f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0596828573ceabdaa9e9161bfaa83301') in 0.068107 seconds 
-  Import took 0.089437 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000440 seconds.
-  path: Assets/Music/魔王魂  村01.ogg
-  artifactKey: Guid(60dd1e8c0a9d6514095b096c023bc9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/魔王魂  村01.ogg using Guid(60dd1e8c0a9d6514095b096c023bc9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa6676e471f8b49247528bc4e71931a') in 0.046084 seconds 
-  Import took 0.087236 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/Music/魔王魂  村01.mp3
-  artifactKey: Guid(04b977feec17eb946b0c1f2387758eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/魔王魂  村01.mp3 using Guid(04b977feec17eb946b0c1f2387758eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ad9d50f6eb0ae9e8953384aea8243a') in 0.041940 seconds 
-  Import took 0.072790 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.768869 seconds.
-  path: Assets/Music/魔王魂  村08.mp3
-  artifactKey: Guid(e3c9384a3b1000049afc06a4bbc98dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/魔王魂  村08.mp3 using Guid(e3c9384a3b1000049afc06a4bbc98dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad275f19e491fe029b49e5fe25bc1406') in 0.025982 seconds 
-  Import took 0.050156 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.038440 seconds.
-  path: Assets/Music/魔王魂  村08.ogg
-  artifactKey: Guid(65b720bfcc126e74782c8280106d7577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/魔王魂  村08.ogg using Guid(65b720bfcc126e74782c8280106d7577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2134302f9696d4d3970f49dcca85a881') in 0.054936 seconds 
-  Import took 0.082479 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.024833 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.300 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2075 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.9 MB.
-System memory in use after: 95.9 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2527.
-Total: 5.948100 ms (FindLiveObjects: 0.578000 ms CreateObjectMapping: 0.233900 ms MarkObjects: 4.902800 ms  DeleteObjects: 0.230200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 260.287668 seconds.
-  path: Assets/Scenes/GameScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ffbe2df5dffbab8e9923371d7106ac') in 0.063416 seconds 
-  Import took 0.205153 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.374836 seconds.
-  path: Assets/Scenes/Floor.unity
-  artifactKey: Guid(19f5aa1489c32db4ca51198e3c12c55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Floor.unity using Guid(19f5aa1489c32db4ca51198e3c12c55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d581453f81d8d961921f40f870a72c') in 0.017707 seconds 
-  Import took 0.170597 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.150849 seconds.
-  path: Assets/Scenes/Menu.unity
-  artifactKey: Guid(19f5aa1489c32db4ca51198e3c12c55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Menu.unity using Guid(19f5aa1489c32db4ca51198e3c12c55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b08e65ad8ec79c7aecab17abe0776586') in 0.016479 seconds 
-  Import took 0.041756 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.053014 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.596 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2075 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.9 MB.
-System memory in use after: 95.9 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2531.
-Total: 5.318800 ms (FindLiveObjects: 0.424500 ms CreateObjectMapping: 0.202000 ms MarkObjects: 4.467200 ms  DeleteObjects: 0.222800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 6937.962761 seconds.
-  path: Assets/animation/主角.controller
-  artifactKey: Guid(df1634c4a6f62ce4d84e54813321e227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/animation/主角.controller using Guid(df1634c4a6f62ce4d84e54813321e227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78887bd67bd4586500a084ab63921e8c') in 0.403593 seconds 
-  Import took 0.764235 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.355282 seconds.
-  path: Assets/Scenes/GameScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b362d3a793bee1eac28c4ed8d0626682') in 0.029186 seconds 
-  Import took 0.150285 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.480523 seconds.
-  path: Assets/Scenes/Menu.unity
-  artifactKey: Guid(19f5aa1489c32db4ca51198e3c12c55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Menu.unity using Guid(19f5aa1489c32db4ca51198e3c12c55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b62e4f48238c1b49eba18cfc34b45f0') in 0.023019 seconds 
-  Import took 0.050910 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.945665 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(53740a0cfcc076e408988b3ae06dafcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(53740a0cfcc076e408988b3ae06dafcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f14b3a3ae464f1713d4b29eb400bc1a1') in 0.025361 seconds 
-  Import took 0.100577 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.060341 seconds.
-  path: Assets/Scenes/學習模式.unity
-  artifactKey: Guid(c8ab0e7d05fdd8745bb5325512e2e484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/學習模式.unity using Guid(c8ab0e7d05fdd8745bb5325512e2e484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ff0d2db83aa426be58c401e1f16e9e') in 0.017645 seconds 
-  Import took 0.065865 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 395.233968 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(09438e4b8c5be934e9f70186fc5c885e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(09438e4b8c5be934e9f70186fc5c885e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c933e836cacda823fac481ff1b503fd') in 0.025830 seconds 
-  Import took 0.153720 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 60.103015 seconds.
   path: Assets/Scripts/Car.cs
   artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5242872c18a06fcc3edc26ba97f3d294') in 0.083146 seconds 
-  Import took 0.111247 seconds .
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.188592 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.193485 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.101376 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.452 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.0 MB.
-System memory in use after: 96.0 MB.
+Received Import Request.
+  Time since last request: 0.027577 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001378 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.011702 seconds .
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2536.
-Total: 6.670300 ms (FindLiveObjects: 1.098300 ms CreateObjectMapping: 0.277800 ms MarkObjects: 4.946600 ms  DeleteObjects: 0.331000 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.043520 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002968 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.014912 seconds .
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 0.037273 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001216 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.008310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035907 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001941 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.016559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033896 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004588 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.010899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031013 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001801 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.009349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041390 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001956 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.009291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036065 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001816 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.010205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043303 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001157 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.008179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047561 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002789 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.011645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038939 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003111 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.010808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031234 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002197 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.010022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032611 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002859 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.012641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039981 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001782 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.008070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037455 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001756 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.011115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030983 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001116 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.008721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040253 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002221 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.009406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.218060 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000996 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.007070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033098 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001642 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.014456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046357 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001893 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.009979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041028 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003675 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.012682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040280 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001522 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.010482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031511 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003896 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.012601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032515 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002621 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.009171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037534 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001301 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.009633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043290 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001638 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.016331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035923 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001999 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.015755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041112 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001613 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.013609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036410 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001710 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.010100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041303 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001758 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.008228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036897 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001677 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.010529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044309 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005359 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.017280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030963 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003976 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.015321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030621 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001339 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.012740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030834 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002795 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.013310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043321 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001895 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.008580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034862 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001837 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.012014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046409 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001751 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.011281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033255 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001361 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.010091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032086 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002767 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.008856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036483 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001361 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.007240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043448 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001718 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.009535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041089 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001309 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.010701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040641 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002299 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.012447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034158 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001172 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.008884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036847 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001995 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.008746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049058 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001825 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.011509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034055 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002443 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.009936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039590 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001761 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.010342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036618 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001512 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.013136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044635 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002415 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.010055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037372 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003076 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.011303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033130 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001917 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.010088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034186 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002507 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.010486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040902 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001444 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.008663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048855 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002508 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.010719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029766 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002176 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.008401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034446 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002720 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.015244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036067 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001447 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.010173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038484 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001548 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.012022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033487 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001837 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.008880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035965 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001655 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.015732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036525 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001043 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.007210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043172 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002601 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.010631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029607 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001893 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.008053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031503 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001791 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.010962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044123 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001375 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.007965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033086 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004185 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.014101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034938 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002339 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.008918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.253366 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000839 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.006283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030434 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001105 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.008996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046399 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001602 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.012987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040941 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001891 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.010101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035615 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001000 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.010476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039159 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003929 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.010894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032983 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003838 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.015228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030504 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002964 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.011875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033621 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002371 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.015407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034665 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001840 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.010076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037817 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001860 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.011643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038985 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001463 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.011852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028316 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001278 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.009808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045665 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001153 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.011042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031148 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002911 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.010837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029389 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.086286 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.096831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038104 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001444 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.014609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056397 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001603 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.011799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038326 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002169 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.008912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041479 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001344 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.010229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040437 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002372 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.012032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039114 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.226209 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.233140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044649 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001971 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.011392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059834 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002029 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.019240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036963 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002043 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.015047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029065 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003079 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.008678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043764 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001357 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.010573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031513 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001792 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.008337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036249 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002577 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.010310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031141 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001887 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.008476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039080 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003835 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.016119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033710 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002714 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.010919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031263 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003305 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.013682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032091 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001470 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.009085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040063 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001896 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.008666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036118 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002218 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.008843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031311 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002937 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.009389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037770 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001445 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.010119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041896 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001200 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.010233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031584 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001759 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.008839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031143 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001436 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.009059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031436 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002626 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.012101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042849 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001151 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.007990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033720 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001737 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.012476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031486 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002319 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.010212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031042 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001724 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.013342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035742 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001560 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.008673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038431 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002188 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.010456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037054 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002998 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.011466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029420 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001646 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.009672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036501 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001504 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.008351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043201 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001678 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.009855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029994 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001877 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.008562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032094 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002654 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.009745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030053 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002311 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.008237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040362 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001814 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.008895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035137 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001810 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.009419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033666 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000899 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.007853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037863 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001596 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.009950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034596 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001750 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.010079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.084052 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001008 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.025702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040783 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005292 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.027840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044134 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003119 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.016757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050597 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003150 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.026830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034978 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004540 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.038505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050928 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003518 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.013966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055669 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002887 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.021806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029992 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003627 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.013376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032286 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002009 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.009394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035723 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001286 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.010317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040996 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001299 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.174293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.181429 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001737 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.525080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042279 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005292 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.036523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059643 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006158 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.039238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039344 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002762 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.010913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040262 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003978 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.013118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039765 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001677 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.010308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047184 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002296 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.014297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031075 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001869 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.015729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036213 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009368 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.034979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026742 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001875 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.010539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042939 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002090 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.009049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036899 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002221 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.009439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039486 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001806 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.011146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033007 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002725 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.008580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041340 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001808 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.009782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034708 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001579 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.008319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035230 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003918 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.034834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030451 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001773 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.020546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028366 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001614 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.011965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037713 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004624 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.017869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040552 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001144 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.078679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045276 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002204 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.036583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.308842 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001089 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.028441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045996 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002894 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z')
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '2021-07-10T13:12:02.8410192Z'
+  Import took 0.044739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.152750 seconds.
+  path: Assets/Scripts/Car.cs
+  artifactKey: Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car.cs using Guid(2a83684983274ca4a8f77a01b898fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 14.326184 seconds  code(4) message(Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff6b4b8c36c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff6b4b94749 (Unity) StackWalker::ShowCallstack
+0x00007ff6b607d27c (Unity) GetStacktrace
+0x00007ff6b625b267 (Unity) GetAssetHashAndValidate
+0x00007ff6b6256433 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff6b62543a2 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6b622e80d (Unity) CreateAssetVersionBuilder
+0x00007ff6b623550d (Unity) ImportToObjects
+0x00007ff6b6234328 (Unity) ImportAsset
+0x00007ff6b6196108 (Unity) AssetImportWorker::Import
+0x00007ff6b61e9fef (Unity) <lambda_e7e5f5e49556456463706cfa5dd72d0a>::operator()
+0x00007ff6b628d592 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff6b628f6f0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6b6292e7e (Unity) asio::io_service::run
+0x00007ff6b621627b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6b62162d0 (Unity) RunAssetImporterV2
+0x00007ff6b5704df6 (Unity) Application::InitializeProject
+0x00007ff6b608a7e2 (Unity) WinMain
+0x00007ff6b7edae86 (Unity) __scrt_common_main_seh
+0x00007ffe97147034 (KERNEL32) BaseThreadInitThunk
+0x00007ffe98b62651 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/scripts/car.cs in SourceAssetDB has modification time of '2021-07-10T13:11:44.734988Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff6b4b8c36c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff6b4b94749 (Unity) StackWalker::ShowCallstack
+0x00007ff6b607d27c (Unity) GetStacktrace
+0x00007ff6b625b267 (Unity) GetAssetHashAndValidate
+0x00007ff6b6256433 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff6b62543a2 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6b622e80d (Unity) CreateAssetVersionBuilder
+0x00007ff6b623550d (Unity) ImportToObjects
+0x00007ff6b6234328 (Unity) ImportAsset
+0x00007ff6b6196108 (Unity) AssetImportWorker::Import
+0x00007ff6b61e9fef (Unity) <lambda_e7e5f5e49556456463706cfa5dd72d0a>::operator()
+0x00007ff6b628d592 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff6b628f6f0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6b6292e7e (Unity) asio::io_service::run
+0x00007ff6b621627b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6b62162d0 (Unity) RunAssetImporterV2
+0x00007ff6b5704df6 (Unity) Application::InitializeProject
+0x00007ff6b608a7e2 (Unity) WinMain
+0x00007ff6b7edae86 (Unity) __scrt_common_main_seh
+0x00007ffe97147034 (KERNEL32) BaseThreadInitThunk
+0x00007ffe98b62651 (ntdll) RtlUserThreadStart
+
+  Import took 14.332704 seconds .
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
