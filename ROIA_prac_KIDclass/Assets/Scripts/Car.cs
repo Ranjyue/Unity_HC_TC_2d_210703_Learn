@@ -96,8 +96,43 @@ public class Car : MonoBehaviour
 
     #endregion
 
+    #region 事件
+    // 開始事件：撥放遊戲時執行一次，處理初始化
+    private void Start()
+    {
+        print("Hello Bro~");    // 只有編輯端看得到，玩家看不到，為了測試執行情況用途
+                                                // 輸出(任何類型資料);
+                                              //  unity>inspector>cube>將勾勾取消 = 取消物件執行
+
+        //  練習曲德欄位 Get
+        print(brand);
+        //  練習曲德欄位 Get
+
+        dormer = true;
+        cc = 5000;
+        weight = 9.9f;
+
+
+    }
+
+    //  更新事件：大約一秒 60次，60FPS，處理物件移動或者監聽玩家輸入
+    private void Update()
+    {
+        print("我在   Update  內 @3@");
+    }
 
 
 
+    //
+    private void FixedUpdate()
+    {
+        
+    }
 
+
+
+    #endregion
+
+    #region
+    #endregion
 }

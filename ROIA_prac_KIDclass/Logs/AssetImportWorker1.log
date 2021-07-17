@@ -1,0 +1,1853 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.12f1 (b3b2c6512326) revision 11776710'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1110; Version 2009; 64bit' Language: 'zh' Physical Memory: 8073 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+E:\Unity\2020.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+E:/Unity/Unit 2/Unity_HC_TC_2d_210703_Learn/ROIA_prac_KIDclass
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+55663
+Successfully changed project path to: E:/Unity/Unit 2/Unity_HC_TC_2d_210703_Learn/ROIA_prac_KIDclass
+E:/Unity/Unit 2/Unity_HC_TC_2d_210703_Learn/ROIA_prac_KIDclass
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 142.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.12f1 (b3b2c6512326)
+[Subsystems] Discovering subsystems at path E:/Unity/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity/Unit 2/Unity_HC_TC_2d_210703_Learn/ROIA_prac_KIDclass/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 520 (ID=0x1916)
+    Vendor:   
+    VRAM:     4036 MB
+    Driver:   22.20.16.4691
+Initialize mono
+Mono path[0] = 'E:/Unity/2020.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'E:/Unity/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003994 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 201.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.576 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.032247 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 101.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.610 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 1.44 seconds
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2095 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.1 MB.
+System memory in use after: 179.1 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2549.
+Total: 6.046000 ms (FindLiveObjects: 0.458700 ms CreateObjectMapping: 0.286400 ms MarkObjects: 5.036700 ms  DeleteObjects: 0.261300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(f326fa8f88d952542b869d3d44dc388a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(f326fa8f88d952542b869d3d44dc388a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1727ba7ba258de3dbbdff0a09edd2010') in 0.095572 seconds 
+  Import took 0.136265 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.044397 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.166 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2077 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 177.8 MB.
+System memory in use after: 177.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2553.
+Total: 3.519300 ms (FindLiveObjects: 0.281800 ms CreateObjectMapping: 0.133500 ms MarkObjects: 2.932900 ms  DeleteObjects: 0.169000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1140.337823 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(f326fa8f88d952542b869d3d44dc388a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(f326fa8f88d952542b869d3d44dc388a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec271e076faed20eb49bdbf14834ddf3') in 0.011661 seconds 
+  Import took 0.036390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.576684 seconds.
+  path: Assets/Props/wagon 1.prefab
+  artifactKey: Guid(047867a5f71e2d845bbb34f8fbbf75cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/wagon 1.prefab using Guid(047867a5f71e2d845bbb34f8fbbf75cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f43326fdfb354a2f0a31bbc7e0de12ed') in 0.383217 seconds 
+  Import took 0.405056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.052424 seconds.
+  path: Assets/Props/wagon+c#.prefab
+  artifactKey: Guid(047867a5f71e2d845bbb34f8fbbf75cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/wagon+c#.prefab using Guid(047867a5f71e2d845bbb34f8fbbf75cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85005e8c3c7b50fcd738d5867b9a326') in 0.055829 seconds 
+  Import took 0.074600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.056898 seconds.
+  path: Assets/Props/Obelisk_0.prefab
+  artifactKey: Guid(850c460a04b71e847b51a1b0b1144f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Obelisk_0.prefab using Guid(850c460a04b71e847b51a1b0b1144f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0292398f0d0823ef8fb042dda73dd14') in 0.126665 seconds 
+  Import took 0.158119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011314 seconds.
+  path: Assets/Props/Obelisk_0.prefab
+  artifactKey: Guid(850c460a04b71e847b51a1b0b1144f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Obelisk_0.prefab using Guid(850c460a04b71e847b51a1b0b1144f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0292398f0d0823ef8fb042dda73dd14') in 0.057036 seconds 
+  Import took 0.076565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.133021 seconds.
+  path: Assets/Props/Obelisk_effects_0.prefab
+  artifactKey: Guid(7110c26fd9465324eb1215da689dfe05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Obelisk_effects_0.prefab using Guid(7110c26fd9465324eb1215da689dfe05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3135b63567a21a2d4a604918c8259687') in 0.402015 seconds 
+  Import took 0.430991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 82.717197 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/background.png
+  artifactKey: Guid(4277dc09634e9374bb64c61e477bac0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/background.png using Guid(4277dc09634e9374bb64c61e477bac0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb2ea9959ceb1baad73860e0f5f60db2') in 0.346972 seconds 
+  Import took 0.367986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/tileset.png
+  artifactKey: Guid(f42aff979dc687b4e9ef0e829b9a8148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/tileset.png using Guid(f42aff979dc687b4e9ef0e829b9a8148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c22816182ae2c90a0bb8360279f961') in 0.134474 seconds 
+  Import took 0.153206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/middleground.png
+  artifactKey: Guid(ca00ce3fcd3e4994b9ead11467c3ffc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/middleground.png using Guid(ca00ce3fcd3e4994b9ead11467c3ffc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c6ebd485d501566c2391ff854887cb') in 0.061859 seconds 
+  Import took 0.074761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.934948 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset
+  artifactKey: Guid(b7b1a8bfe6d5c554b9f6144871a40015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset using Guid(b7b1a8bfe6d5c554b9f6144871a40015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d7f9e55eab67c110a13116294c3dd3') in 0.015596 seconds 
+  Import took 0.042838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002194 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset
+  artifactKey: Guid(b7b1a8bfe6d5c554b9f6144871a40015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset using Guid(b7b1a8bfe6d5c554b9f6144871a40015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d7f9e55eab67c110a13116294c3dd3') in 0.008401 seconds 
+  Import took 0.019005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.077893 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/ground-b.png
+  artifactKey: Guid(da0ce8a7491e00a4396c2fccf3a1f079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/ground-b.png using Guid(da0ce8a7491e00a4396c2fccf3a1f079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '565a5c806dde7e8c0e3dc44333c2dd6a') in 0.044726 seconds 
+  Import took 0.056644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-mirror-left.png
+  artifactKey: Guid(5f790fe6c13f7e746900dc6c8b64df29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-mirror-left.png using Guid(5f790fe6c13f7e746900dc6c8b64df29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c658dbfcbc8794bd48133ab5b116493') in 0.040284 seconds 
+  Import took 0.051859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001985 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-left.png
+  artifactKey: Guid(91a9dc1894d28594e9155d61de2496e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-left.png using Guid(91a9dc1894d28594e9155d61de2496e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b98d7458b777b4bca8e04a3e41fc2e2c') in 0.069192 seconds 
+  Import took 0.084163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/slope.png
+  artifactKey: Guid(e539a325409ea9048b07c5d25a153870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/slope.png using Guid(e539a325409ea9048b07c5d25a153870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '512dc637f6c968478e35f33aeb45e5d1') in 0.040799 seconds 
+  Import took 0.055601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000514 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/right-slope.png
+  artifactKey: Guid(72ae4d2af2e0f7b4fb116916135c5cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/right-slope.png using Guid(72ae4d2af2e0f7b4fb116916135c5cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '463e53b3e3a7de5998e26be6fc1d2978') in 0.052366 seconds 
+  Import took 0.070578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/left-roof.png
+  artifactKey: Guid(6b66c89166df1b548b812b72cdf80313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/left-roof.png using Guid(6b66c89166df1b548b812b72cdf80313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36953c56faa1c63810aa100a3847f471') in 0.075424 seconds 
+  Import took 0.103624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/ground-wall-b.png
+  artifactKey: Guid(5a3a915829489f6478f8516f7a5f65e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/ground-wall-b.png using Guid(5a3a915829489f6478f8516f7a5f65e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29fb02f73821092f3268733909ae8d14') in 0.063397 seconds 
+  Import took 0.100868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/right-corner.png
+  artifactKey: Guid(33c018a80c705ef439fb8d1d06c5d7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/right-corner.png using Guid(33c018a80c705ef439fb8d1d06c5d7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a5cd38eaea852c54a1b5389dc376ad') in 0.070197 seconds 
+  Import took 0.101577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/roof.png
+  artifactKey: Guid(0baa22ec539ec4f4e911b3c00fb34293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/roof.png using Guid(0baa22ec539ec4f4e911b3c00fb34293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba5f0fc961fdc8f36bbd449403bd2a6') in 0.064598 seconds 
+  Import took 0.070975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/shadow.png
+  artifactKey: Guid(363736852e9af0347b7c34eb9567218a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/shadow.png using Guid(363736852e9af0347b7c34eb9567218a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9bdfce0b2562c8ee89e1f9b4d15e2d4') in 0.071743 seconds 
+  Import took 0.108861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/ground-shadow.png
+  artifactKey: Guid(109c52d5923d8a34d92ab2099937e97a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/ground-shadow.png using Guid(109c52d5923d8a34d92ab2099937e97a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a3cc81d73655467b28c740f8feb0afa') in 0.074925 seconds 
+  Import took 0.082855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/left-slope.png
+  artifactKey: Guid(31ff3b497ff240a4fb966020bc63a9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/left-slope.png using Guid(31ff3b497ff240a4fb966020bc63a9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa0a98f1016116884151c4ccdde9eb0d') in 0.094450 seconds 
+  Import took 0.103404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/ground.png
+  artifactKey: Guid(26dc078c9c29f394d991983a9f216024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/ground.png using Guid(26dc078c9c29f394d991983a9f216024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeca4975b9a1fa3ead641e4a0db79d90') in 0.068317 seconds 
+  Import took 0.074432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/ground-right-corner.png
+  artifactKey: Guid(d2108f9e06bd0574d8520a1c8fbc0701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/ground-right-corner.png using Guid(d2108f9e06bd0574d8520a1c8fbc0701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f4461d690c64d4b758833318635d76') in 0.055409 seconds 
+  Import took 0.061672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/ground-corner.png
+  artifactKey: Guid(efa5c56aa545faf45aa80e144f3e0659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/ground-corner.png using Guid(efa5c56aa545faf45aa80e144f3e0659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d989250494b165317cd9ab8cdb6dcb') in 0.052459 seconds 
+  Import took 0.058915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001238 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/ground-wall.png
+  artifactKey: Guid(5451e214a2c7aee4db542285109993e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/ground-wall.png using Guid(5451e214a2c7aee4db542285109993e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '738a31ac44bd24167a32a4f196773761') in 0.051054 seconds 
+  Import took 0.062931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/left-corner.png
+  artifactKey: Guid(581a1dd25819bd0418f40e70246c4e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/left-corner.png using Guid(581a1dd25819bd0418f40e70246c4e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb5b194781a3a7d7cec17591e659578') in 0.054581 seconds 
+  Import took 0.077881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/ground-wood-legs.png
+  artifactKey: Guid(52f49192b712c0c47ba3dbc9809e1a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/ground-wood-legs.png using Guid(52f49192b712c0c47ba3dbc9809e1a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e00238a698ce77f2ecb3b6eaf2ef39') in 0.053963 seconds 
+  Import took 0.063419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/right-roof.png
+  artifactKey: Guid(712ffaa0f402c1e4a889804a710e3ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/right-roof.png using Guid(712ffaa0f402c1e4a889804a710e3ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf678bad7841f09d40018834e1a2365') in 0.037814 seconds 
+  Import took 0.051065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.785273 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-mirror-right.png
+  artifactKey: Guid(11cf8cdc552fcef499560cb5a310836e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-mirror-right.png using Guid(11cf8cdc552fcef499560cb5a310836e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '068e60205990b960f017b9bb5b303821') in 0.193322 seconds 
+  Import took 0.224079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000521 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-right.png
+  artifactKey: Guid(0a17c491a02b0c54ca41b855cf9b0369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-right.png using Guid(0a17c491a02b0c54ca41b855cf9b0369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd4a29ae5ee6e6747545d88345174d74') in 0.083361 seconds 
+  Import took 0.111883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000492 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-wall-left.png
+  artifactKey: Guid(d6ca1c93c64752345adb4db05e545781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-wall-left.png using Guid(d6ca1c93c64752345adb4db05e545781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '250830e411cf56350caa648dcd593537') in 0.280649 seconds 
+  Import took 0.289533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-mirror.png
+  artifactKey: Guid(c91b5135e0a9ad44491a6306b3f1afa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-mirror.png using Guid(c91b5135e0a9ad44491a6306b3f1afa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c9fa4a401f8157d525c3a5bfe61b047') in 0.040545 seconds 
+  Import took 0.050401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-wall-mirror-right.png
+  artifactKey: Guid(1bf7996d17f6e504480ebd3dff094b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-wall-mirror-right.png using Guid(1bf7996d17f6e504480ebd3dff094b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f380d763824d40da19817138095cf843') in 0.045521 seconds 
+  Import took 0.053209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-wall-mirror-left.png
+  artifactKey: Guid(d2aed5ac7cb048348b64fe63e2d0aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-wall-mirror-left.png using Guid(d2aed5ac7cb048348b64fe63e2d0aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '650efdffde1eb61294d45d8896d644b5') in 0.050319 seconds 
+  Import took 0.074413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs.png
+  artifactKey: Guid(fc2d178a75f57dd499c9951c8bb9c6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs.png using Guid(fc2d178a75f57dd499c9951c8bb9c6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea09f99a69328d559c67c0ed741a666') in 0.046364 seconds 
+  Import took 0.053021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-wall.png
+  artifactKey: Guid(35a666b0596defd4aa6069cd646e33ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-wall.png using Guid(35a666b0596defd4aa6069cd646e33ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf742b420e1ed86ee4e92a8acac2ad4') in 0.065783 seconds 
+  Import took 0.073691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/top-right-wood.png
+  artifactKey: Guid(1a1ad8883e98b6e4fabe1c0382da8bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/top-right-wood.png using Guid(1a1ad8883e98b6e4fabe1c0382da8bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b34c84e61ca91b5c4d1483d1c29732') in 0.089501 seconds 
+  Import took 0.112239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-wall-right.png
+  artifactKey: Guid(87db60bd9e699ce4ab4642ac9d6ce07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-wall-right.png using Guid(87db60bd9e699ce4ab4642ac9d6ce07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2ca838762b9439bdcb67c5f62ae1f41') in 0.055185 seconds 
+  Import took 0.062794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-wall-mirror.png
+  artifactKey: Guid(07a95d95db77f1044ae7d8e9efa7236c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-wall-mirror.png using Guid(07a95d95db77f1044ae7d8e9efa7236c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e5cd8f25db6365a090e3672d55a6251') in 0.064493 seconds 
+  Import took 0.071907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/top-left-wood.png
+  artifactKey: Guid(1f7de32635e81d14695e1c4eb99ce3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/top-left-wood.png using Guid(1f7de32635e81d14695e1c4eb99ce3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc859478bf3036b4f1218957a3fb51b0') in 0.071145 seconds 
+  Import took 0.107275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.234838 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/top-wood.png
+  artifactKey: Guid(514610eca4c31d54bbcfcb4d77d1bd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/top-wood.png using Guid(514610eca4c31d54bbcfcb4d77d1bd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e16093641972e4860f0cb9cd0654b19') in 0.050709 seconds 
+  Import took 0.058846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/window.png
+  artifactKey: Guid(ed69929324b10f44ab0caa2965c6ebf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/window.png using Guid(ed69929324b10f44ab0caa2965c6ebf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca92a861bf8158ac9449e2c8a9b75da1') in 0.056925 seconds 
+  Import took 0.063412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/wall-b.png
+  artifactKey: Guid(e594c37ddca1581488099dc89c7ad165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/wall-b.png using Guid(e594c37ddca1581488099dc89c7ad165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a2c57350210d6fba0dfecaf52433ca') in 0.051491 seconds 
+  Import took 0.060050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/window-bars.png
+  artifactKey: Guid(626e0cd61a4932b4a98e30dfa56bb29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/window-bars.png using Guid(626e0cd61a4932b4a98e30dfa56bb29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da8f514c51075b8bdc3f4c79936fbe77') in 0.050742 seconds 
+  Import took 0.062983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/wall-b.png
+  artifactKey: Guid(e594c37ddca1581488099dc89c7ad165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/wall-b.png using Guid(e594c37ddca1581488099dc89c7ad165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a2c57350210d6fba0dfecaf52433ca') in 0.034763 seconds 
+  Import took 0.043347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/wood-legs.png
+  artifactKey: Guid(6cf683e45425fa247bc57893d6e0d58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/wood-legs.png using Guid(6cf683e45425fa247bc57893d6e0d58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd54d801ee4cb859a1476d90b849e9a77') in 0.057173 seconds 
+  Import took 0.067633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/wall.png
+  artifactKey: Guid(641b8ad3318ee004faa10a6487d9e5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/wall.png using Guid(641b8ad3318ee004faa10a6487d9e5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3b319547bbeb9582a76f057162ae33c') in 0.050144 seconds 
+  Import took 0.059565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.194841 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/ground-b.png
+  artifactKey: Guid(da0ce8a7491e00a4396c2fccf3a1f079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/ground-b.png using Guid(da0ce8a7491e00a4396c2fccf3a1f079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05fd27ced0f5781de069616df05d31d3') in 0.065268 seconds 
+  Import took 0.093171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000517 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/top-right-wood.png
+  artifactKey: Guid(1a1ad8883e98b6e4fabe1c0382da8bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/top-right-wood.png using Guid(1a1ad8883e98b6e4fabe1c0382da8bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67891c342c3045c5ea5e06ee46292e2f') in 0.029744 seconds 
+  Import took 0.055388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/window.png
+  artifactKey: Guid(ed69929324b10f44ab0caa2965c6ebf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/window.png using Guid(ed69929324b10f44ab0caa2965c6ebf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a231e98f23355ad0e431f989a7a6037d') in 0.046029 seconds 
+  Import took 0.064750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000540 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/wall-b.png
+  artifactKey: Guid(e594c37ddca1581488099dc89c7ad165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/wall-b.png using Guid(e594c37ddca1581488099dc89c7ad165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4405042a52532caa26e733ecd272560b') in 0.078498 seconds 
+  Import took 0.088600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/window-bars.png
+  artifactKey: Guid(626e0cd61a4932b4a98e30dfa56bb29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/window-bars.png using Guid(626e0cd61a4932b4a98e30dfa56bb29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5147762f929dd1d7e03242ca0c0ff2e9') in 0.077006 seconds 
+  Import took 0.095418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/wood-legs.png
+  artifactKey: Guid(6cf683e45425fa247bc57893d6e0d58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/wood-legs.png using Guid(6cf683e45425fa247bc57893d6e0d58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eaa3abfbda97ac752f9b11f002516a1') in 0.032144 seconds 
+  Import took 0.048994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/top-wood.png
+  artifactKey: Guid(514610eca4c31d54bbcfcb4d77d1bd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/top-wood.png using Guid(514610eca4c31d54bbcfcb4d77d1bd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b894cb416ae547afa18caca767a5363b') in 0.116878 seconds 
+  Import took 0.130071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/wall.png
+  artifactKey: Guid(641b8ad3318ee004faa10a6487d9e5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/wall.png using Guid(641b8ad3318ee004faa10a6487d9e5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c420e10d7ef1ca658701a23e64241a79') in 0.020616 seconds 
+  Import took 0.028306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.008074 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/props-sliced/barrel.png
+  artifactKey: Guid(7c9ea49e1bd963a428dcfde42388e226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/props-sliced/barrel.png using Guid(7c9ea49e1bd963a428dcfde42388e226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8611174859257427e9f9af4b373d9400') in 0.055096 seconds 
+  Import took 0.233359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000463 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/props-sliced/house-c.png
+  artifactKey: Guid(59e8ed56794ef7c4da31a3eb5447233b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/props-sliced/house-c.png using Guid(59e8ed56794ef7c4da31a3eb5447233b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b875802337ce59ccef8e9d096b7684f') in 0.223097 seconds 
+  Import took 0.247280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000494 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/props-sliced/house-b.png
+  artifactKey: Guid(ff626958040ad6e4285ac142af9ec572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/props-sliced/house-b.png using Guid(ff626958040ad6e4285ac142af9ec572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '011b704c0320e330000a354769eb65bb') in 0.029451 seconds 
+  Import took 0.036619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/props-sliced/sign.png
+  artifactKey: Guid(65947d81ad3b2b349a3a1992eafc4c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/props-sliced/sign.png using Guid(65947d81ad3b2b349a3a1992eafc4c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f64e3fea172e2f4ec638a9df8137ebda') in 0.052469 seconds 
+  Import took 0.087697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/props-sliced/crate-stack.png
+  artifactKey: Guid(5587a780e83baf4449f70fa6817c78ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/props-sliced/crate-stack.png using Guid(5587a780e83baf4449f70fa6817c78ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e01b1c9b5512f80e4b2d7c7627ffcf5') in 0.115654 seconds 
+  Import took 0.121993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001005 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/props-sliced/street-lamp.png
+  artifactKey: Guid(74ea9070991040142bb6a3f9d5b9ec1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/props-sliced/street-lamp.png using Guid(74ea9070991040142bb6a3f9d5b9ec1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ad167acf4ef51fad7d7a56dfb007d9') in 0.113643 seconds 
+  Import took 0.316169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001358 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/props-sliced/well.png
+  artifactKey: Guid(1b97af54af6f28146acef38a705c3fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/props-sliced/well.png using Guid(1b97af54af6f28146acef38a705c3fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b687d8af029356361a979ec342229b17') in 0.110769 seconds 
+  Import took 0.193431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/props-sliced/crate.png
+  artifactKey: Guid(7d14a79de894c8046be7532de6ed455f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/props-sliced/crate.png using Guid(7d14a79de894c8046be7532de6ed455f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c06bb18a62c36f1404f06630dc8f5e') in 0.143159 seconds 
+  Import took 0.152059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/props-sliced/house-a.png
+  artifactKey: Guid(4ed31ddeddb8beb4f811ffeaee87475f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/props-sliced/house-a.png using Guid(4ed31ddeddb8beb4f811ffeaee87475f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c9c0a3120ecccb00557350742fde465') in 0.033907 seconds 
+  Import took 0.048560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.958095 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/environment-preview.png
+  artifactKey: Guid(eefdf0433d3c1ef409128d1d4fa8e88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/environment-preview.png using Guid(eefdf0433d3c1ef409128d1d4fa8e88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c958d6db8e6e45ed43e5ae3df60f3d') in 0.040162 seconds 
+  Import took 0.056633 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014798 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.950 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2077 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 181.0 MB.
+System memory in use after: 181.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2609.
+Total: 5.882200 ms (FindLiveObjects: 0.471200 ms CreateObjectMapping: 0.221600 ms MarkObjects: 4.940900 ms  DeleteObjects: 0.245700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 339.966040 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers
+  artifactKey: Guid(db1c5b09045c45a4db1883714fa57cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers using Guid(db1c5b09045c45a4db1883714fa57cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f74045f12ede466a0bb39ca0d1f089bf') in 0.016217 seconds 
+  Import took 0.248207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.153054 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/ground-corner.png
+  artifactKey: Guid(efa5c56aa545faf45aa80e144f3e0659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/ground-corner.png using Guid(efa5c56aa545faf45aa80e144f3e0659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5644ffddd38425fda251f040bff10cb8') in 0.086513 seconds 
+  Import took 0.095219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000541 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-mirror-left.png
+  artifactKey: Guid(5f790fe6c13f7e746900dc6c8b64df29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-mirror-left.png using Guid(5f790fe6c13f7e746900dc6c8b64df29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed26af5a879a762279b0dffe571810f8') in 0.031811 seconds 
+  Import took 0.066097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-left.png
+  artifactKey: Guid(91a9dc1894d28594e9155d61de2496e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-left.png using Guid(91a9dc1894d28594e9155d61de2496e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '465834a3e11624dc09634459203539b1') in 0.038533 seconds 
+  Import took 0.050598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000802 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/slope.png
+  artifactKey: Guid(e539a325409ea9048b07c5d25a153870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/slope.png using Guid(e539a325409ea9048b07c5d25a153870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c97681573d72cda0b339d0e5d298049c') in 0.060308 seconds 
+  Import took 0.077202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/right-slope.png
+  artifactKey: Guid(72ae4d2af2e0f7b4fb116916135c5cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/right-slope.png using Guid(72ae4d2af2e0f7b4fb116916135c5cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '961819c0b26a21a7a9e4b3db3f9d478c') in 0.058627 seconds 
+  Import took 0.081632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/left-roof.png
+  artifactKey: Guid(6b66c89166df1b548b812b72cdf80313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/left-roof.png using Guid(6b66c89166df1b548b812b72cdf80313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10d56b0b9c8c142277fb10ff44fa6e7') in 0.036186 seconds 
+  Import took 0.059427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001428 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/ground-wall-b.png
+  artifactKey: Guid(5a3a915829489f6478f8516f7a5f65e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/ground-wall-b.png using Guid(5a3a915829489f6478f8516f7a5f65e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0581b5fec3247f4188c0c21837e98941') in 0.024178 seconds 
+  Import took 0.046581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/right-corner.png
+  artifactKey: Guid(33c018a80c705ef439fb8d1d06c5d7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/right-corner.png using Guid(33c018a80c705ef439fb8d1d06c5d7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d24a2e91ad87d7ce6183caadd637203') in 0.025338 seconds 
+  Import took 0.049044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/roof.png
+  artifactKey: Guid(0baa22ec539ec4f4e911b3c00fb34293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/roof.png using Guid(0baa22ec539ec4f4e911b3c00fb34293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23afafab39c38dd919e7f0c1bbcb23bd') in 0.027353 seconds 
+  Import took 0.041465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/shadow.png
+  artifactKey: Guid(363736852e9af0347b7c34eb9567218a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/shadow.png using Guid(363736852e9af0347b7c34eb9567218a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c5195bc5c197dec65983115d202b7ce') in 0.041203 seconds 
+  Import took 0.069940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/ground-shadow.png
+  artifactKey: Guid(109c52d5923d8a34d92ab2099937e97a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/ground-shadow.png using Guid(109c52d5923d8a34d92ab2099937e97a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9660f50fb6896e4c6e37a686a7420d0c') in 0.026176 seconds 
+  Import took 0.032681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/left-slope.png
+  artifactKey: Guid(31ff3b497ff240a4fb966020bc63a9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/left-slope.png using Guid(31ff3b497ff240a4fb966020bc63a9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a33601e432aae0b1fdfa1045b043abb') in 0.031185 seconds 
+  Import took 0.052819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/ground.png
+  artifactKey: Guid(26dc078c9c29f394d991983a9f216024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/ground.png using Guid(26dc078c9c29f394d991983a9f216024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c2e10d11d4a7614b04443b2982c450f') in 0.028249 seconds 
+  Import took 0.056452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003214 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/ground-right-corner.png
+  artifactKey: Guid(d2108f9e06bd0574d8520a1c8fbc0701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/ground-right-corner.png using Guid(d2108f9e06bd0574d8520a1c8fbc0701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '201a0d8344606d295d3bacdb73be5fa3') in 0.032151 seconds 
+  Import took 0.054304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/ground-wall.png
+  artifactKey: Guid(5451e214a2c7aee4db542285109993e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/ground-wall.png using Guid(5451e214a2c7aee4db542285109993e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0572784091d14dcfb74b022bdc4ac078') in 0.031372 seconds 
+  Import took 0.041778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/left-corner.png
+  artifactKey: Guid(581a1dd25819bd0418f40e70246c4e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/left-corner.png using Guid(581a1dd25819bd0418f40e70246c4e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0772f4dcece06552372f056dd64f6886') in 0.040529 seconds 
+  Import took 0.051905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/ground-wood-legs.png
+  artifactKey: Guid(52f49192b712c0c47ba3dbc9809e1a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/ground-wood-legs.png using Guid(52f49192b712c0c47ba3dbc9809e1a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6158e551cfa2fd79e1bd05c256ed20a3') in 0.026419 seconds 
+  Import took 0.065166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/right-roof.png
+  artifactKey: Guid(712ffaa0f402c1e4a889804a710e3ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/right-roof.png using Guid(712ffaa0f402c1e4a889804a710e3ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd99c0bcc111057800dd334afeaedd93') in 0.064780 seconds 
+  Import took 0.126359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.978016 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-mirror-right.png
+  artifactKey: Guid(11cf8cdc552fcef499560cb5a310836e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-mirror-right.png using Guid(11cf8cdc552fcef499560cb5a310836e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d4da6b5ac15cfaf24e675b87bc3a84') in 0.075739 seconds 
+  Import took 0.082359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-right.png
+  artifactKey: Guid(0a17c491a02b0c54ca41b855cf9b0369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-right.png using Guid(0a17c491a02b0c54ca41b855cf9b0369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d79a46e6bdd4758a6f08afe39d0d93') in 0.031704 seconds 
+  Import took 0.042445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-wall-left.png
+  artifactKey: Guid(d6ca1c93c64752345adb4db05e545781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-wall-left.png using Guid(d6ca1c93c64752345adb4db05e545781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d3c66ad36d1e524ebb119b4e913d746') in 0.025655 seconds 
+  Import took 0.034218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000583 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-mirror.png
+  artifactKey: Guid(c91b5135e0a9ad44491a6306b3f1afa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-mirror.png using Guid(c91b5135e0a9ad44491a6306b3f1afa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d88b0243e6712ba9a2bbada55fbd74') in 0.052033 seconds 
+  Import took 0.139266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-wall-mirror-right.png
+  artifactKey: Guid(1bf7996d17f6e504480ebd3dff094b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-wall-mirror-right.png using Guid(1bf7996d17f6e504480ebd3dff094b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba50f1bd5bfc9ddd11307f14a0ee7e8c') in 0.029993 seconds 
+  Import took 0.092622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-wall-mirror-left.png
+  artifactKey: Guid(d2aed5ac7cb048348b64fe63e2d0aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-wall-mirror-left.png using Guid(d2aed5ac7cb048348b64fe63e2d0aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '394e69040d61ac8f2c835f5bb15313e2') in 0.026744 seconds 
+  Import took 0.033002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.126855 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-wall-mirror.png
+  artifactKey: Guid(07a95d95db77f1044ae7d8e9efa7236c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-wall-mirror.png using Guid(07a95d95db77f1044ae7d8e9efa7236c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cda82c9d2d083d19380fa07f7674a06') in 0.041190 seconds 
+  Import took 0.054411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs.png
+  artifactKey: Guid(fc2d178a75f57dd499c9951c8bb9c6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs.png using Guid(fc2d178a75f57dd499c9951c8bb9c6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceb63e66fcce499139f25da0032c4fe3') in 0.058333 seconds 
+  Import took 0.098503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-wall.png
+  artifactKey: Guid(35a666b0596defd4aa6069cd646e33ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-wall.png using Guid(35a666b0596defd4aa6069cd646e33ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa8f1731164277fa73f00fd9de224f26') in 0.026738 seconds 
+  Import took 0.032910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-wall-right.png
+  artifactKey: Guid(87db60bd9e699ce4ab4642ac9d6ce07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-wall-right.png using Guid(87db60bd9e699ce4ab4642ac9d6ce07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f6b0e7b21358be7719a22867eb7980') in 0.043315 seconds 
+  Import took 0.051398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-wall-mirror.png
+  artifactKey: Guid(07a95d95db77f1044ae7d8e9efa7236c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-wall-mirror.png using Guid(07a95d95db77f1044ae7d8e9efa7236c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cda82c9d2d083d19380fa07f7674a06') in 0.038638 seconds 
+  Import took 0.044734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/top-left-wood.png
+  artifactKey: Guid(1f7de32635e81d14695e1c4eb99ce3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/sliced-tileset/top-left-wood.png using Guid(1f7de32635e81d14695e1c4eb99ce3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a59b22a7a2e6b8ae21035db4f11a7e') in 0.031183 seconds 
+  Import took 0.040731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 109.031817 seconds.
+  path: Assets/Moosy Cavern
+  artifactKey: Guid(fffa28995fdec8846acbaa0c480eb93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Moosy Cavern using Guid(fffa28995fdec8846acbaa0c480eb93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b37bc030ee99c7e4645e3374ce798c') in 0.027245 seconds 
+  Import took 0.037668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.263018 seconds.
+  path: Assets/Legacy-Fantasy-VL.1 - High Forest
+  artifactKey: Guid(d95d8afc6e9fde246aeceb4e0dc32e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Legacy-Fantasy-VL.1 - High Forest using Guid(d95d8afc6e9fde246aeceb4e0dc32e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df11ded5ef8a207bb751748a6630c5b3') in 0.012755 seconds 
+  Import took 0.041313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.000810 seconds.
+  path: Assets/Fonts/Palette
+  artifactKey: Guid(b7d78aaa9a9ccd440b866d8f2cfa2b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Palette using Guid(b7d78aaa9a9ccd440b866d8f2cfa2b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114cc539481127cb781642c808e55844') in 0.014875 seconds 
+  Import took 0.022414 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010981 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.975 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2077 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 181.0 MB.
+System memory in use after: 181.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2614.
+Total: 5.691700 ms (FindLiveObjects: 0.496400 ms CreateObjectMapping: 0.242000 ms MarkObjects: 4.724300 ms  DeleteObjects: 0.225900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 286.829445 seconds.
+  path: Assets/Scenes/Menu_Set.unity
+  artifactKey: Guid(effe533d722dbd64fa61beccddadefd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu_Set.unity using Guid(effe533d722dbd64fa61beccddadefd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b31affb2aa20e55725e27bbf0f17b3') in 0.063129 seconds 
+  Import took 0.073232 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009338 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.916 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2077 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 181.1 MB.
+System memory in use after: 181.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2618.
+Total: 5.930200 ms (FindLiveObjects: 0.556400 ms CreateObjectMapping: 0.265900 ms MarkObjects: 4.881600 ms  DeleteObjects: 0.223700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5.264257 seconds.
+  path: Assets/Scenes/GameScene01.unity
+  artifactKey: Guid(b08ef40de3cdd614b9eacd4a8381b679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene01.unity using Guid(b08ef40de3cdd614b9eacd4a8381b679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac2b92def7852def6689e13b27719c23') in 0.035930 seconds 
+  Import took 0.043842 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016563 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.211 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2077 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 181.1 MB.
+System memory in use after: 181.1 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2622.
+Total: 7.003500 ms (FindLiveObjects: 0.696000 ms CreateObjectMapping: 0.306300 ms MarkObjects: 5.713400 ms  DeleteObjects: 0.284900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 738.275824 seconds.
+  path: Assets/GothicVania-town-files/code/phaser-code/assets/atlas/atlas.png
+  artifactKey: Guid(de5c64db61ae84b44866cd2e0f6d3ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/code/phaser-code/assets/atlas/atlas.png using Guid(de5c64db61ae84b44866cd2e0f6d3ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82be1c95f7a8a4bfe414cd80d0fef4a5') in 0.134012 seconds 
+  Import took 0.145342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.372554 seconds.
+  path: Assets/GothicVania-town-files/code/phaser-code/assets/atlas/atlas.png
+  artifactKey: Guid(de5c64db61ae84b44866cd2e0f6d3ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/code/phaser-code/assets/atlas/atlas.png using Guid(de5c64db61ae84b44866cd2e0f6d3ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f5ecfe6a926dc8c28b875d69ff621c') in 0.039600 seconds 
+  Import took 0.065463 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.060021 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.817 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2077 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 181.1 MB.
+System memory in use after: 181.1 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2629.
+Total: 6.795800 ms (FindLiveObjects: 1.444600 ms CreateObjectMapping: 0.346700 ms MarkObjects: 4.630300 ms  DeleteObjects: 0.371700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016048 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.089 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2077 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 181.1 MB.
+System memory in use after: 181.1 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2633.
+Total: 5.900400 ms (FindLiveObjects: 0.458100 ms CreateObjectMapping: 0.204500 ms MarkObjects: 4.995800 ms  DeleteObjects: 0.239100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1187.223137 seconds.
+  path: Assets/Scenes/Car_Pra_KID.unity
+  artifactKey: Guid(c38050a4f3369fb44a3cfa2292e800b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Car_Pra_KID.unity using Guid(c38050a4f3369fb44a3cfa2292e800b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ca4cdf2a90a6107925e984423a4256') in 0.042883 seconds 
+  Import took 0.149243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.915761 seconds.
+  path: Assets/Scripts/LearnOperator.cs
+  artifactKey: Guid(fd763bf7412c10c409f612a7ebd9e653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LearnOperator.cs using Guid(fd763bf7412c10c409f612a7ebd9e653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde2d2900a9a2c3e40a63b928a148726') in 0.014152 seconds 
+  Import took 0.055375 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012016 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.931 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2078 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 181.1 MB.
+System memory in use after: 181.1 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2638.
+Total: 5.167300 ms (FindLiveObjects: 0.482000 ms CreateObjectMapping: 0.249900 ms MarkObjects: 4.202200 ms  DeleteObjects: 0.230000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012577 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.178 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2078 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 181.2 MB.
+System memory in use after: 181.1 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2642.
+Total: 7.659800 ms (FindLiveObjects: 2.926200 ms CreateObjectMapping: 0.231100 ms MarkObjects: 4.258600 ms  DeleteObjects: 0.238600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 397.147513 seconds.
+  path: Assets/Scripts/LearnOperator.cs
+  artifactKey: Guid(fd763bf7412c10c409f612a7ebd9e653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LearnOperator.cs using Guid(fd763bf7412c10c409f612a7ebd9e653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c06a0eec290ba63558e5f98612b1455') in 0.014765 seconds 
+  Import took 0.153815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 356.512951 seconds.
+  path: Assets/Scenes/GameScene01.unity
+  artifactKey: Guid(b08ef40de3cdd614b9eacd4a8381b679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene01.unity using Guid(b08ef40de3cdd614b9eacd4a8381b679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbcf9a7f543e075b1e13a4c7cba26dd6') in 0.044150 seconds 
+  Import took 0.132025 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012869 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.081 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2078 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 181.3 MB.
+System memory in use after: 181.2 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2646.
+Total: 5.579400 ms (FindLiveObjects: 0.499500 ms CreateObjectMapping: 0.253100 ms MarkObjects: 4.601600 ms  DeleteObjects: 0.222800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 427.058105 seconds.
+  path: Assets/IMG/background.png
+  artifactKey: Guid(4277dc09634e9374bb64c61e477bac0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMG/background.png using Guid(4277dc09634e9374bb64c61e477bac0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '767f0eacd52bd2b7772e64550ac476ec') in 0.208729 seconds 
+  Import took 0.227136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/IMG/middleground.png
+  artifactKey: Guid(ca00ce3fcd3e4994b9ead11467c3ffc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMG/middleground.png using Guid(ca00ce3fcd3e4994b9ead11467c3ffc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ed2a7f01cd5bf8a564c157e2d38d4a') in 0.043262 seconds 
+  Import took 0.100252 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015793 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.939 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2078 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 181.3 MB.
+System memory in use after: 181.3 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2651.
+Total: 11.835600 ms (FindLiveObjects: 0.511100 ms CreateObjectMapping: 3.424300 ms MarkObjects: 7.651900 ms  DeleteObjects: 0.246300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 501.175457 seconds.
+  path: Assets/Legacy-Fantasy-VL.1 - High Forest/Assets/Tiles.png
+  artifactKey: Guid(3e6a671a6ce74be418fb2cdfe56c8d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Legacy-Fantasy-VL.1 - High Forest/Assets/Tiles.png using Guid(3e6a671a6ce74be418fb2cdfe56c8d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888ccbec5f949b03a936ced00e209773') in 0.464422 seconds 
+  Import took 0.472183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.482137 seconds.
+  path: Assets/Legacy-Fantasy-VL.1 - High Forest/Background/Background-1.png
+  artifactKey: Guid(f6a8142326ccd7b40b16f80c2389e6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Legacy-Fantasy-VL.1 - High Forest/Background/Background-1.png using Guid(f6a8142326ccd7b40b16f80c2389e6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd172e5c665edf46297f7e3cffb140892') in 0.139100 seconds 
+  Import took 0.147572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000525 seconds.
+  path: Assets/Legacy-Fantasy-VL.1 - High Forest/Background/Background-4.png
+  artifactKey: Guid(94b82f40106991f42a84c68e527b6498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Legacy-Fantasy-VL.1 - High Forest/Background/Background-4.png using Guid(94b82f40106991f42a84c68e527b6498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b4d82a5a1c3f64a77c7274bd5ba832') in 0.057128 seconds 
+  Import took 0.077714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Legacy-Fantasy-VL.1 - High Forest/Background/Background-3.png
+  artifactKey: Guid(eb25a075766fe58448e77d96d43bada6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Legacy-Fantasy-VL.1 - High Forest/Background/Background-3.png using Guid(eb25a075766fe58448e77d96d43bada6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a590d03cdef18261c6e7f78408be5c3') in 0.060643 seconds 
+  Import took 0.068102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Legacy-Fantasy-VL.1 - High Forest/Background/Background-2.png
+  artifactKey: Guid(4d7644003dfd4ac4a9189bb3dd55bce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Legacy-Fantasy-VL.1 - High Forest/Background/Background-2.png using Guid(4d7644003dfd4ac4a9189bb3dd55bce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d514d36893e61a1eaa9214d7796b15') in 0.065541 seconds 
+  Import took 0.073016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.016698 seconds.
+  path: Assets/Legacy-Fantasy-VL.1 - High Forest/Social/Assets.png
+  artifactKey: Guid(59c1dea7cd817c24ea91e8f39b6151aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Legacy-Fantasy-VL.1 - High Forest/Social/Assets.png using Guid(59c1dea7cd817c24ea91e8f39b6151aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e526d39287aa88c4bc56b0a12702ed') in 0.166435 seconds 
+  Import took 0.181769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000471 seconds.
+  path: Assets/Legacy-Fantasy-VL.1 - High Forest/Social/MockUp-1.png
+  artifactKey: Guid(996b3aab2785d5b4398d9792877ac095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Legacy-Fantasy-VL.1 - High Forest/Social/MockUp-1.png using Guid(996b3aab2785d5b4398d9792877ac095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '215792bfbc616746ae02f4bf5eca0f38') in 0.063535 seconds 
+  Import took 0.091485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Legacy-Fantasy-VL.1 - High Forest/Social/Background.png
+  artifactKey: Guid(bd9823af445f2ca4f84628f120368bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Legacy-Fantasy-VL.1 - High Forest/Social/Background.png using Guid(bd9823af445f2ca4f84628f120368bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ea932a57430a1e3b21fe7c9aaaf310') in 0.083826 seconds 
+  Import took 0.102977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Legacy-Fantasy-VL.1 - High Forest/Social/MockUp-2.png
+  artifactKey: Guid(df01f36d178121149a0ad16e9b32bde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Legacy-Fantasy-VL.1 - High Forest/Social/MockUp-2.png using Guid(df01f36d178121149a0ad16e9b32bde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfc54a52e230ce18d72ae7eab6f6d4e4') in 0.080533 seconds 
+  Import took 0.086392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Legacy-Fantasy-VL.1 - High Forest/Social/MockUp-1.1.png
+  artifactKey: Guid(6b5ed66dabbddec41879d1fb904744f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Legacy-Fantasy-VL.1 - High Forest/Social/MockUp-1.1.png using Guid(6b5ed66dabbddec41879d1fb904744f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48dd44e2fe09db3728efef8bce5d9c30') in 0.084300 seconds 
+  Import took 0.090436 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013869 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.077 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2078 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 181.3 MB.
+System memory in use after: 181.3 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2660.
+Total: 9.028100 ms (FindLiveObjects: 0.770800 ms CreateObjectMapping: 0.496200 ms MarkObjects: 7.502700 ms  DeleteObjects: 0.255000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 563.363513 seconds.
+  path: Assets/GothicVania-town-files/PNG
+  artifactKey: Guid(36b61d7d0c62a9741be1e8d77f7c6ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG using Guid(36b61d7d0c62a9741be1e8d77f7c6ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ada40f2b2201224ede2f4c708d02835') in 0.025417 seconds 
+  Import took 0.063040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.957967 seconds.
+  path: Assets/GothicVania-town-files/PNG/environment/layers/tileset.png
+  artifactKey: Guid(f42aff979dc687b4e9ef0e829b9a8148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicVania-town-files/PNG/environment/layers/tileset.png using Guid(f42aff979dc687b4e9ef0e829b9a8148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65143732c26a6bfa25a51ca940f3f6d1') in 0.091505 seconds 
+  Import took 0.100601 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019851 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.606 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2078 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 181.3 MB.
+System memory in use after: 181.3 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2664.
+Total: 9.371000 ms (FindLiveObjects: 0.533600 ms CreateObjectMapping: 0.199600 ms MarkObjects: 8.392700 ms  DeleteObjects: 0.242200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 464.306253 seconds.
+  path: Assets/Scripts/Players_Sprits
+  artifactKey: Guid(e526fb4e4401cea4db528df92e609ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Players_Sprits using Guid(e526fb4e4401cea4db528df92e609ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0abe253907a88b085d44f3a2620fb102') in 0.030746 seconds 
+  Import took 0.038987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.911395 seconds.
+  path: Assets/Players_Sprits/MMediaval King
+  artifactKey: Guid(3cb22f41ab208cc4f9a0f2316f4bd476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Players_Sprits/MMediaval King using Guid(3cb22f41ab208cc4f9a0f2316f4bd476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb1e99f8d862cde0609a116dad72f1b6') in 0.014966 seconds 
+  Import took 0.026440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.719529 seconds.
+  path: Assets/Players_Sprits/Medieval King
+  artifactKey: Guid(3cb22f41ab208cc4f9a0f2316f4bd476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Players_Sprits/Medieval King using Guid(3cb22f41ab208cc4f9a0f2316f4bd476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c80579979e2d9deb39189ce7907f6e') in 0.010841 seconds 
+  Import took 0.035555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.600639 seconds.
+  path: Assets/Players_Sprits/Medieval King/Attack1.png
+  artifactKey: Guid(317a1af6cc7d1ea4faa50afcd802bc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Players_Sprits/Medieval King/Attack1.png using Guid(317a1af6cc7d1ea4faa50afcd802bc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef845c43a8470901606575432c72a89') in 0.231693 seconds 
+  Import took 0.240881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Players_Sprits/Medieval King/Attack3.png
+  artifactKey: Guid(fe64bdc9a8ef91f42957195abf377f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Players_Sprits/Medieval King/Attack3.png using Guid(fe64bdc9a8ef91f42957195abf377f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d778aeaaf68b46410d67a6a3ee5d3a8') in 0.020436 seconds 
+  Import took 0.025366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Players_Sprits/Medieval King/Take Hit - white silhouette.png
+  artifactKey: Guid(0833469e7ce44134fa2f4bce07f000d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Players_Sprits/Medieval King/Take Hit - white silhouette.png using Guid(0833469e7ce44134fa2f4bce07f000d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '662f5ef135612fe9c99efa6abeba90ca') in 0.018117 seconds 
+  Import took 0.039622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Players_Sprits/Medieval King/Attack2.png
+  artifactKey: Guid(f258c96babd60dc47bca3573f959b816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Players_Sprits/Medieval King/Attack2.png using Guid(f258c96babd60dc47bca3573f959b816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3190e92a3043edaf7060a6dd822a4f8d') in 0.038861 seconds 
+  Import took 0.061292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Players_Sprits/Medieval King/Death.png
+  artifactKey: Guid(8c655fa1fd4f8434ab27e450541f146c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Players_Sprits/Medieval King/Death.png using Guid(8c655fa1fd4f8434ab27e450541f146c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '378cd44d4be5e41f451acf1672a1d90e') in 0.033774 seconds 
+  Import took 0.042942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000471 seconds.
+  path: Assets/Players_Sprits/Medieval King/Fall.png
+  artifactKey: Guid(1a6a6620a7cdb8c42b6e9f1a17e0ef8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Players_Sprits/Medieval King/Fall.png using Guid(1a6a6620a7cdb8c42b6e9f1a17e0ef8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2301d78320758efc0c9d0d314adeca09') in 0.029999 seconds 
+  Import took 0.040651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Players_Sprits/Medieval King/Jump.png
+  artifactKey: Guid(20562feb7c64915478f5a8dedb24e2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Players_Sprits/Medieval King/Jump.png using Guid(20562feb7c64915478f5a8dedb24e2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f57cab1986a190f9c4698e11e642ff0') in 0.039739 seconds 
+  Import took 0.049501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Players_Sprits/Medieval King/Idle.png
+  artifactKey: Guid(cd68f816f3a0e2b4b92dd70074a1e748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Players_Sprits/Medieval King/Idle.png using Guid(cd68f816f3a0e2b4b92dd70074a1e748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d9ece27a9925bbaa2d1249836e6b6a') in 0.031460 seconds 
+  Import took 0.040835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Players_Sprits/Medieval King/Take Hit.png
+  artifactKey: Guid(47059874276367a408a75184839b6852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Players_Sprits/Medieval King/Take Hit.png using Guid(47059874276367a408a75184839b6852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00286bd0caf71788e07137b012217412') in 0.033793 seconds 
+  Import took 0.043624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Players_Sprits/Medieval King/Run.png
+  artifactKey: Guid(64e245766fbbe23448954e616e61ed31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Players_Sprits/Medieval King/Run.png using Guid(64e245766fbbe23448954e616e61ed31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '296d39335de7622df2e83bcb258d3263') in 0.029788 seconds 
+  Import took 0.055989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.343756 seconds.
+  path: Assets/Players_Sprits/Medieval King/Death.png
+  artifactKey: Guid(8c655fa1fd4f8434ab27e450541f146c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Players_Sprits/Medieval King/Death.png using Guid(8c655fa1fd4f8434ab27e450541f146c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe6a412e032a58eda847d8ce619cace1') in 0.059102 seconds 
+  Import took 0.069345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000557 seconds.
+  path: Assets/Players_Sprits/Medieval King/Attack3.png
+  artifactKey: Guid(fe64bdc9a8ef91f42957195abf377f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Players_Sprits/Medieval King/Attack3.png using Guid(fe64bdc9a8ef91f42957195abf377f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c07e3f25d48f01869598aab545a27139') in 0.029065 seconds 
+  Import took 0.092276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Players_Sprits/Medieval King/Take Hit - white silhouette.png
+  artifactKey: Guid(0833469e7ce44134fa2f4bce07f000d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Players_Sprits/Medieval King/Take Hit - white silhouette.png using Guid(0833469e7ce44134fa2f4bce07f000d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d0622a5857a105f5214f64949572be') in 0.028773 seconds 
+  Import took 0.038453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Players_Sprits/Medieval King/Attack2.png
+  artifactKey: Guid(f258c96babd60dc47bca3573f959b816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Players_Sprits/Medieval King/Attack2.png using Guid(f258c96babd60dc47bca3573f959b816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba35f9116d3d0b29630d6962e6f1afab') in 0.034369 seconds 
+  Import took 0.040397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Players_Sprits/Medieval King/Attack1.png
+  artifactKey: Guid(317a1af6cc7d1ea4faa50afcd802bc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Players_Sprits/Medieval King/Attack1.png using Guid(317a1af6cc7d1ea4faa50afcd802bc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3595bfec3678b7f399c4de5a9ada6960') in 0.032757 seconds 
+  Import took 0.047029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001076 seconds.
+  path: Assets/Players_Sprits/Medieval King/Fall.png
+  artifactKey: Guid(1a6a6620a7cdb8c42b6e9f1a17e0ef8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Players_Sprits/Medieval King/Fall.png using Guid(1a6a6620a7cdb8c42b6e9f1a17e0ef8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '731698c22c0eabe77f8bc4b799d1e392') in 0.025278 seconds 
+  Import took 0.037856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Players_Sprits/Medieval King/Jump.png
+  artifactKey: Guid(20562feb7c64915478f5a8dedb24e2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Players_Sprits/Medieval King/Jump.png using Guid(20562feb7c64915478f5a8dedb24e2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '127f6bda29c30d2a48f8b40791eed716') in 0.025690 seconds 
+  Import took 0.063688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/Players_Sprits/Medieval King/Idle.png
+  artifactKey: Guid(cd68f816f3a0e2b4b92dd70074a1e748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Players_Sprits/Medieval King/Idle.png using Guid(cd68f816f3a0e2b4b92dd70074a1e748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2661b75551c4d774f91f153f6f6cc75a') in 0.028486 seconds 
+  Import took 0.038890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Players_Sprits/Medieval King/Take Hit.png
+  artifactKey: Guid(47059874276367a408a75184839b6852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Players_Sprits/Medieval King/Take Hit.png using Guid(47059874276367a408a75184839b6852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af851bbbe2bf00788d401f3ac4f37abc') in 0.020961 seconds 
+  Import took 0.045086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000544 seconds.
+  path: Assets/Players_Sprits/Medieval King/Run.png
+  artifactKey: Guid(64e245766fbbe23448954e616e61ed31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Players_Sprits/Medieval King/Run.png using Guid(64e245766fbbe23448954e616e61ed31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5feadc38f65a4936c742b48fd684160c') in 0.024382 seconds 
+  Import took 0.048245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.920043 seconds.
+  path: Assets/Players_Sprits/Medieval King/Idle.png
+  artifactKey: Guid(cd68f816f3a0e2b4b92dd70074a1e748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Players_Sprits/Medieval King/Idle.png using Guid(cd68f816f3a0e2b4b92dd70074a1e748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2c0fb5f2e11bbd5742c8dd3a1775771') in 0.083379 seconds 
+  Import took 0.118193 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015907 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.988 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2078 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 181.4 MB.
+System memory in use after: 181.3 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2679.
+Total: 5.871700 ms (FindLiveObjects: 0.546200 ms CreateObjectMapping: 0.228100 ms MarkObjects: 4.869800 ms  DeleteObjects: 0.225300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016522 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.485 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2078 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 181.4 MB.
+System memory in use after: 181.4 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2683.
+Total: 5.560900 ms (FindLiveObjects: 0.451200 ms CreateObjectMapping: 0.178800 ms MarkObjects: 4.599400 ms  DeleteObjects: 0.329000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020359 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.404 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2078 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 181.4 MB.
+System memory in use after: 181.4 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2687.
+Total: 5.374600 ms (FindLiveObjects: 0.483100 ms CreateObjectMapping: 0.228200 ms MarkObjects: 4.439100 ms  DeleteObjects: 0.221000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020074 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.799 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2078 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 181.4 MB.
+System memory in use after: 181.4 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2691.
+Total: 5.873800 ms (FindLiveObjects: 0.518800 ms CreateObjectMapping: 0.255900 ms MarkObjects: 4.867100 ms  DeleteObjects: 0.229100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013009 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.127 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2078 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 181.4 MB.
+System memory in use after: 181.4 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2695.
+Total: 6.127500 ms (FindLiveObjects: 0.485700 ms CreateObjectMapping: 0.294600 ms MarkObjects: 5.132900 ms  DeleteObjects: 0.211600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.024181 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.923 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2078 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 181.4 MB.
+System memory in use after: 181.4 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2699.
+Total: 7.374100 ms (FindLiveObjects: 0.472100 ms CreateObjectMapping: 0.251800 ms MarkObjects: 6.375400 ms  DeleteObjects: 0.272200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
