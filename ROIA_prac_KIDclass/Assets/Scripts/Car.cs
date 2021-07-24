@@ -4,7 +4,7 @@ using UnityEngine;
 // class=類別
 // 語法：類別關鍵字 腳本命名
 
- 
+
 public class Car : MonoBehaviour
 {
 
@@ -39,10 +39,10 @@ public class Car : MonoBehaviour
     //  布林值     bool     ex ：    true,      false
 
     //  定義欄位
-    public float weight    =   3.5f;
-   public int cc  =   4000;
-   public string brand    = "Ferrari";
-   public bool dormer   =   true;
+    public float weight = 3.5f;
+    public int cc = 4000;
+    public string brand = "Ferrari";
+    public bool dormer = true;
 
     //  欄位屬性：輔助欄位填加額外功能
     //  語法：[屬性名稱(屬性值)]
@@ -67,9 +67,9 @@ public class Car : MonoBehaviour
     public Color color1;                                                                           //   使用預設顏色
     public Color color = Color.red;
     public Color yellow = Color.yellow;
-    public Color colorCustom1 = new Color(0.5f,     0.5f    ,0);    //  自訂顏色(R，G，B)
-    public Color colorCustom2 = new Color(0.5f, 0.05f, 0,5f);   //  自訂顏色 (R，G，B，A)
-    
+    public Color colorCustom1 = new Color(0.5f, 0.5f, 0);    //  自訂顏色(R，G，B)
+    public Color colorCustom2 = new Color(0.5f, 0.05f, 0, 5f);   //  自訂顏色 (R，G，B，A)
+
 
     //  座標 2    -   4   維   Vector2    -   4
     //  保存數值資訊、浮點數
@@ -78,7 +78,7 @@ public class Car : MonoBehaviour
     public Vector2 v2One = Vector2.one;
     public Vector2 v2Up = Vector2.up;
     public Vector2 v2Right;
-    public Vector2 v2Custom = new Vector2(-99.5f,100.5f);
+    public Vector2 v2Custom = new Vector2(-99.5f, 100.5f);
 
     public Vector3 v3;
     public Vector4 v4;
@@ -100,9 +100,11 @@ public class Car : MonoBehaviour
     // 開始事件：撥放遊戲時執行一次，處理初始化
     private void Start()
     {
+        #region 練習欄位
+        // 輸出(任何類型資料);
         print("Hello Bro~");    // 只有編輯端看得到，玩家看不到，為了測試執行情況用途
-                                                // 輸出(任何類型資料);
-                                              //  unity>inspector>cube>將勾勾取消 = 取消物件執行
+                                // 輸出(任何類型資料);
+                                //  unity>inspector>cube>將勾勾取消 = 取消物件執行
 
         //  練習曲德欄位 Get
         print(brand);
@@ -112,7 +114,14 @@ public class Car : MonoBehaviour
         cc = 5000;
         weight = 9.9f;
 
+        #endregion
 
+        // Lesson 9
+        // 呼叫方法語法：方法名稱();
+        Drive50();
+        Drive100();
+        Drive150();
+        Drive200();
     }
 
     //  更新事件：大約一秒 60次，60FPS，處理物件移動或者監聽玩家輸入
@@ -126,13 +135,41 @@ public class Car : MonoBehaviour
     //
     private void FixedUpdate()
     {
-        
+
     }
 
 
 
     #endregion
 
-    #region
+    #region 方法
+    //  方法：實作比較複雜的行為，例如：汽車在前開、開啟汽車的音響並播放音樂…
+    //  標準語法：修飾詞 類型  名稱  指定  預設值 ;
+    //  方法語法：修飾詞 類型  名稱(餐數){   程式區塊    }
+    //  類型：void -   無傳回
+    //  定義方法：不會執行的必須呼叫，呼叫方式：在事件內呼叫此方法
+    //  Lesson09：維護姓、擴充性
+
+    private void Drive50()
+    {
+        print("開車中、時速：50");
+    }
+
+    private void Drive100()
+    {
+        print("開車中、時速：100");
+    }
+    private void Drive200()
+    {
+        print("開車中、時速：100");
+    }
+    private void Drive150()
+    {
+        print("開車中、時速：150");
+    }
+
+    #endregion
+
+    #region 
     #endregion
 }

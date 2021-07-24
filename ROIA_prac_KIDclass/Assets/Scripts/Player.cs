@@ -19,6 +19,21 @@ public class Player : MonoBehaviour
     private Animator animator;
     #endregion
 
+    #region  事件
+    #endregion
+
+    #region 方法
+
+    /// <sumary>
+    /// 移動
+    /// </sumary>
+    /// <       >
+    private void Move(float horizontal)
+    {
+        
+    }
+
+    #endregion
 
 
 

@@ -156,6 +156,81 @@ Transform:
   m_Father: {fileID: 1013033233}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &390523495
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2043838213128528614, guid: 8ce93dd96b438684ab530fedf3f67cec, type: 3}
+      propertyPath: m_Name
+      value: "\u7DF4\u7FD2\u975C\u614B API"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5263530552892668014, guid: 8ce93dd96b438684ab530fedf3f67cec, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5263530552892668014, guid: 8ce93dd96b438684ab530fedf3f67cec, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.1026468
+      objectReference: {fileID: 0}
+    - target: {fileID: 5263530552892668014, guid: 8ce93dd96b438684ab530fedf3f67cec, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.8494182
+      objectReference: {fileID: 0}
+    - target: {fileID: 5263530552892668014, guid: 8ce93dd96b438684ab530fedf3f67cec, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5263530552892668014, guid: 8ce93dd96b438684ab530fedf3f67cec, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5263530552892668014, guid: 8ce93dd96b438684ab530fedf3f67cec, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5263530552892668014, guid: 8ce93dd96b438684ab530fedf3f67cec, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5263530552892668014, guid: 8ce93dd96b438684ab530fedf3f67cec, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5263530552892668014, guid: 8ce93dd96b438684ab530fedf3f67cec, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5263530552892668014, guid: 8ce93dd96b438684ab530fedf3f67cec, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5263530552892668014, guid: 8ce93dd96b438684ab530fedf3f67cec, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8ce93dd96b438684ab530fedf3f67cec, type: 3}
+--- !u!1 &390523496 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2043838213128528614, guid: 8ce93dd96b438684ab530fedf3f67cec, type: 3}
+  m_PrefabInstance: {fileID: 390523495}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &390523497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 390523496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f8bb7946f557784480731e4e39dd073, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hp: 80
 --- !u!4 &751062870 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 762134477038677598, guid: 047867a5f71e2d845bbb34f8fbbf75cc, type: 3}
@@ -261,9 +336,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: barrel
       objectReference: {fileID: 0}
+    - target: {fileID: 3910888209518965864, guid: 779eb78722227b043950f766a303189a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6094004019671681776, guid: 779eb78722227b043950f766a303189a, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6094004019671681776, guid: 779eb78722227b043950f766a303189a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -330,6 +409,10 @@ MonoBehaviour:
   hp: 100
   scoreA: 99
   scoreB: 1
+  health: 50
+  key: 1
+  chest: 7
+  diamond: 0
 --- !u!4 &1418562694 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1589825395731583251, guid: 7110c26fd9465324eb1215da689dfe05, type: 3}
