@@ -97,7 +97,8 @@ public class Car : MonoBehaviour
     #endregion
 
     #region 事件
-    // 開始事件：撥放遊戲時執行一次，處理初始化
+    //  Lesson 07
+    //  開始事件：撥放遊戲時執行一次，處理初始化
     private void Start()
     {
         #region 練習欄位
@@ -118,10 +119,36 @@ public class Car : MonoBehaviour
 
         // Lesson 9
         // 呼叫方法語法：方法名稱();
-        Drive50();
-        Drive100();
-        Drive150();
-        Drive200();
+
+        #region 這種方式更新的時候麻煩不簡便
+        //Drive50();
+        //Drive100();
+        //Drive150();
+        //Drive200();
+        #endregion
+
+        Drive(150,  "咻咻咻");               //  呼叫時小括號內的稱為引數，需輸入對應的引數
+        Drive(200,  "轟轟轟");
+        Drive(300);                         //  NOTE： 設定預設值參數之後，對應引數就不需要必需是相同數量的引數。
+                                            //  #KID： 有預設值的參數可以不用給引數。
+                                            //  #EX01; private void Drive(int speed,   string sound )          → Drive(150,  "咻咻咻"); / Drive(200,  "轟轟轟");
+                                            //  #EX02; private void Drive(int speed,   string sound= "咻咻咻") → Drive(200,  "轟轟轟"); / Drive(200);
+
+        //  Drive(80,   "碎石");            //  時速 80，音效 咻咻咻，特效 碎石    →音效播出來時是碎石
+        Drive(80, effect: "碎石");          //  使用多個預設值參數時可以使用 參數名稱: 值
+        Drive(999, "咻咻咻", "爆炸");        //  輸入與預設值相同的參數 不用多寫 參數值名稱:
+
+        float kg = KG();                    //  區域變數、僅在此括號內使用。NOTE: 傳回類型同時設定相同的屬性
+        print("轉為公斤的資訊：" + kg);
+
+        #region BMI 參數練習
+
+        print("KID 的 BMI：" + BMI(60, 1.68f));   //  直接將傳回方法當成值使用
+
+        #endregion
+
+
+
     }
 
     //  更新事件：大約一秒 60次，60FPS，處理物件移動或者監聽玩家輸入
@@ -142,34 +169,96 @@ public class Car : MonoBehaviour
 
     #endregion
 
-    #region 方法
+    #region 方法 (功能、函式) Method
     //  方法：實作比較複雜的行為，例如：汽車在前開、開啟汽車的音響並播放音樂…
-    //  標準語法：修飾詞 類型  名稱  指定  預設值 ;
-    //  方法語法：修飾詞 類型  名稱(餐數){   程式區塊    }
+    //  標準語法：修飾詞 類    型  名稱  指定  預設值;
+    //  方法語法：修飾詞 傳回類型  名稱(參數){   程式區塊    }
     //  類型：void -   無傳回
     //  定義方法：不會執行的必須呼叫，呼叫方式：在事件內呼叫此方法
-    //  Lesson09：維護姓、擴充性
 
-    private void Drive50()
+    //  Lesson09：$維護姓、$擴充性
+
+    #region 這種方式更新的時候麻煩不簡便
+    //private void Drive50()
+    //{
+    //print("開車中、時速：50");
+    //}
+
+    //private void Drive100()
+    //{
+    //print("開車中、時速：100");
+    //}
+    //private void Drive200()
+    //{
+    //print("開車中、時速：100");
+    //}
+    //private void Drive150()
+    //{
+    //print("開車中、時速：150");
+    //}
+    #endregion
+
+    //  參數語法：   類型 參數名稱 - 寫在小括號內。僅在此方法適用(可使用)
+    //  參數1，參數2，參數3.........參數N (NOTE：沒有上限，但建議參數不要太多[<=10，1-5常見]，受限於使用此系統的複雜程度，參數的作用可能會忘了)
+    //  參數預設值：類型 參數名稱 指定 值 (=選填式參數)
+    //  ※預設值只能放在最右邊
+    //  NOTE:   Summary 摘要 搭配三條斜線
+    //  NOTE:   Parameter = param = 參數
+    //  NOTE:   Summary 的作用:
+    /* 1. 摘要，語言程式設定的由來等
+     * 2. 下次更新、團隊夥伴檢查時的一個依據
+     * 3. 提示列(KEY程式的時候系統會給提示) 會顯示該參數的作用
+     * [] 中括號的內容是預設值的參數
+    */
+
+    /// <summary>
+    /// 這是開車的方法，可以用來控制車子的速度、音效與特效
+    /// </summary>
+    /// <param name="speed">車子的移動速度</param>
+    /// <param name="sound">開車時的音效</param>
+    /// <param name="effect">開車時要播放的特效</param>
+
+    private void Drive(int speed,   string sound= "咻咻咻",    string effect = "灰塵")
     {
-        print("開車中、時速：50");
+        print("開車中、時速：" + speed);
+        print("開車音效：" + sound);
+        print("開車特效：" + effect);
+
     }
 
-    private void Drive100()
+    /// <summary>
+    /// 噸位轉換為公斤
+    /// </summary>
+    /// <returns>轉為公斤的重量資訊</returns>
+
+    private float KG()
     {
-        print("開車中、時速：100");
+        return weight * 1000;
     }
-    private void Drive200()
+
+    #endregion
+
+    #region BMI
+
+    /// <summary>
+    /// 計算 BMI
+    /// </summary>
+    /// <param name="weight">體重(公斤)</param>
+    /// <param name="height">身高(公尺)</param>
+    /// <returns>BMI 值</returns>
+
+    private float BMI(float weight, float height)
     {
-        print("開車中、時速：100");
-    }
-    private void Drive150()
-    {
-        print("開車中、時速：150");
+        return weight / (height * height);
     }
 
     #endregion
 
     #region 
+
     #endregion
+
+    #region 
+    #endregion
+
 }

@@ -130,8 +130,8 @@ public class APIStatic : MonoBehaviour
         //print("遊戲經過時間：" + Time.time);
 
         //  3. 呼叫靜態方法
-        bool space = Input.GetKeyDown("Space");
-        print("是否按下空白鍵：" + space);
+        //  bool space = Input.GetKeyDown("Space"); kid
+        //  print("是否按下空白鍵：" + space);       kid
 
 
         #endregion

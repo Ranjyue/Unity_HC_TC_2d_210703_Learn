@@ -230,6 +230,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f8bb7946f557784480731e4e39dd073, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  radius: 5
+  number: 9.99
+  a: {x: 1, y: 1, z: 1}
+  b: {x: 22, y: 22, z: 22}
   hp: 80
 --- !u!4 &751062870 stripped
 Transform:
