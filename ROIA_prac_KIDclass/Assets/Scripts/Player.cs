@@ -11,12 +11,18 @@ public class Player : MonoBehaviour
     public float hp = 100;
     [Header("是否在地板上"), Tooltip("用來儲存腳色是否在地板上的資訊，在地板上 true，不在地板上 false")]
     public bool onFloor;
+    [Header("重力"), Range(0.1f, 10)]
+    public float gravity = 1;
+    [Header("檢查地板區域：位移與半徑")]
+    public Vector3 groundOffset;
+    [Range(0, 2)]
+    public float groundRadius = 0.5f;
 
 
 
     private Rigidbody2D Rig;
     private AudioSource AudioSource;
-    private Animator animator;
+    private Animator ani;
     /// <summary>
     /// 玩家水平輸入值
     /// </summary>
@@ -37,6 +43,8 @@ public class Player : MonoBehaviour
         // 作用：取得此物件的2D剛體元件
 
         Rig = GetComponent<Rigidbody2D>();
+        ani = GetComponent<Animator>();
+
 
     }
 
@@ -52,6 +60,17 @@ public class Player : MonoBehaviour
     private void FixedUpdate()
     {
         Move(hValue);
+    }
+
+
+
+    // 繪製圖示事件：輔助開發者用，僅會顯示在編輯器 Unity 內
+    private void OnDrawGizmos()
+    {
+        //  先決定顏色在繪製圖示
+        Gizmos.color = new Color(1,0,0,0.3f);   //  半透明紅色
+        // Gizmos.DrawSphere(transform.position, 2);   // 繪製球體(中心點，半徑)
+        Gizmos.DrawSphere(transform.position + groundOffset, groundRadius);
     }
 
     #endregion
@@ -78,8 +97,7 @@ public class Player : MonoBehaviour
         print("玩家水平值：" + hValue);
     }
 
-    [Header("重力"), Range(0.1f, 10)]
-    public float gravity = 1;
+
 
     #endregion
 
@@ -145,6 +163,7 @@ public class Player : MonoBehaviour
     /// <param name="horizontal">左右數值</param>
     private void Move(float horizontal)
     {
+        /** 第一種移動方式：自訂重力
         //  區域變數：在方法欄為，有區域性，僅限於此方法內存取
         //  簡寫：transform 此物件的 Transform 變形元件
         //  posMOve = 角色當前座標 + 玩家輸入的水平值
@@ -152,6 +171,12 @@ public class Player : MonoBehaviour
         //  鋼體，移動座標(要前往的座標)
         //  Time.fixedDeltaTime 指 1/50 秒 #讓數值變小
         Rig.MovePosition(posMove);
+        */
+
+        /** 第二種移動方式：使用專案內的重力 - 較緩慢 */
+        Rig.velocity = new Vector2(horizontal * speed * Time.fixedDeltaTime, Rig.velocity.y);
+
+        ani.SetBool("走路開關", horizontal != 0);
     }
 
     /// <summary>
@@ -178,8 +203,22 @@ public class Player : MonoBehaviour
     /// </summary>
     private void Jump() 
     {
-        //  如果 玩家 按下 空白建 角色就往上跳躍
-        if(Input.GetKeyDown(KeyCode.Space))
+        //  Vector2 參數可以使用 Vector3 代入 城市會自動把 z 軸取消
+        //  << 位移運算子
+        //  指定圖層語法： 1<< 圖層編號
+        Collider2D hit = Physics2D.OverlapCircle(transform.position + groundOffset, groundRadius, 1 << 6);
+
+        //  如果 碰到物件存在 就代表在地板上 否則 就代表不再地面上
+        //  NOTE：如果布林直只有一項可以省略 {}
+        if(hit) onFloor = true;
+        else onFloor = false;
+
+        ani.SetBool("跳躍開關", !onFloor);
+
+        //print("碰到的物件：" +hit.name);
+
+        //  如果 在地板上 並且 玩家 按下 空白建 角色就往上跳躍
+        if(onFloor && Input.GetKeyDown(KeyCode.Space))
         {
             Rig.AddForce(new Vector2(0, JumpHeight));
         }
