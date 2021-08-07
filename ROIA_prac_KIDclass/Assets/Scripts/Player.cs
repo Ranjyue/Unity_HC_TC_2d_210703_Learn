@@ -17,7 +17,8 @@ public class Player : MonoBehaviour
     public Vector3 groundOffset;
     [Range(0, 2)]
     public float groundRadius = 0.5f;
-
+    [Header("攻擊冷卻"), Range(0, 5)]
+    public float cd = 2;
 
 
     private Rigidbody2D Rig;
@@ -27,6 +28,15 @@ public class Player : MonoBehaviour
     /// 玩家水平輸入值
     /// </summary>
     private float hValue;
+
+    /// <summary>
+    /// 攻擊計時器
+    /// </summary>
+    private float timer;
+    /// <summary>
+    /// 是否攻擊
+    /// </summary>
+    private bool isAttack;
     #endregion
 
     #region  事件
@@ -54,6 +64,7 @@ public class Player : MonoBehaviour
         GetPlayerInputHorizontal();
         TurnDirection();
         Jump();
+        Attack();
     }
 
     //  一秒固定執行 50次，官方建議有使用到物理 API 要在此事件內執行
@@ -228,7 +239,19 @@ public class Player : MonoBehaviour
     /// </summary>
     private void Attack()
     {
-
+        
+        //  如果 按下 左鍵 啟動觸發參數
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            isAttack = true;
+            ani.SetTrigger("攻擊觸發");
+        }
+        //  如果按下左鍵攻擊中就開始累加時間
+        if (isAttack)
+        {
+            timer += Time.deltaTime;
+            print("攻擊後累加時間：" + timer);
+        }
     }
     /// <summary>
     /// 受傷
