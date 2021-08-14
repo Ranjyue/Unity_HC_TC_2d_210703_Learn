@@ -8,5 +8,50 @@ using UnityEngine;
 /// ：冒號後面第一個代表的是要繼承的類別
 public class NearEnemy : BaseEnemy
 {
+    #region 欄位
+    [Header("攻擊區域的位移與大小")]
+    public Vector2 checkAttackOffset;
+    public Vector3 checkAttackSize;
+    #endregion
 
+    #region 事件
+
+    protected override void OnDrawGizmos()
+    {
+        //  父類別原本的程式內容
+        base.OnDrawGizmos();
+
+        Gizmos.color = new Color(1, 0.3f, 0.3f, 0.3f);
+        Gizmos.DrawCube(
+            transform.position +
+            transform.right * checkAttackOffset.x +
+            transform.up * checkAttackOffset.y,
+            checkAttackSize);
+    }
+
+    protected override void Update()
+    {
+        base.Update();
+
+        CheckPlayerInAttackArea();
+    }
+
+    #endregion
+
+    #region 方法
+    /// <summary>
+    /// 檢查玩家是否進入工區域
+    /// </summary>
+    private void CheckPlayerInAttackArea()
+    {
+        Collider2D hit = Physics2D.OverlapBox(
+            transform.position +
+            transform.right * checkAttackOffset.x +
+            transform.up * checkAttackOffset.y,
+            checkAttackSize, 0, 1 << 7);
+
+        if (hit) state = StateEnemy.attack;
+
+    }
+    #endregion
 }
